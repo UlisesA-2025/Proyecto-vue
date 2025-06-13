@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Counter from '../components/Counter.vue' // Importamos el componente del contador
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <h1>Bienvenido a la página Home</h1>
+    <Counter />
+  </div>
 </template>
